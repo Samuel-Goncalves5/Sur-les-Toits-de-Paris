@@ -58,7 +58,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Partie\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Menu\Boutons.cs" />
+     <Compile Include="Assets\Partie\Compteur.cs" />
+     <Compile Include="Assets\Partie\Joueur.cs" />
+     <Compile Include="Assets\Partie\JumpSol.cs" />
+     <Compile Include="Assets\Partie\Obstacle.cs" />
+     <Compile Include="Assets\Partie\Translation.cs" />
+     <Compile Include="Assets\SFX\AudioManager.cs" />
+     <Compile Include="Assets\SFX\Sound.cs" />
      <None Include="Assets\Menu\Parisienne\OFL.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/samue/Desktop/Sur les Toits de Paris/Rooftops Surfers/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
