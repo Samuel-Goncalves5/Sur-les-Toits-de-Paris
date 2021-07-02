@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AudioManager
     - Boutons
+    - Builder
     - Compteur
     - Joueur
     - JumpSol
@@ -47,8 +48,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -64,23 +63,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11750}
     - Class: 114
-      Script: {instanceID: 11838}
+      Script: {instanceID: 11840}
     - Class: 114
-      Script: {instanceID: 12030}
+      Script: {instanceID: 12032}
     - Class: 114
-      Script: {instanceID: 12224}
+      Script: {instanceID: 12226}
     - Class: 114
-      Script: {instanceID: 12706}
+      Script: {instanceID: 12708}
     - Class: 114
-      Script: {instanceID: 13000}
+      Script: {instanceID: 13002}
     - Class: 114
-      Script: {instanceID: 13052}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13064}
+      Script: {instanceID: 13066}
     - Class: 114
-      Script: {instanceID: 13078}
+      Script: {instanceID: 13080}
     - Class: 114
-      Script: {instanceID: 13094}
+      Script: {instanceID: 13096}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -122,6 +121,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -135,23 +136,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11600}
     - Class: 114
-      Script: {instanceID: 11838}
+      Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 12108}
+      Script: {instanceID: 11840}
     - Class: 114
-      Script: {instanceID: 12224}
+      Script: {instanceID: 12110}
     - Class: 114
-      Script: {instanceID: 12590}
+      Script: {instanceID: 12226}
     - Class: 114
-      Script: {instanceID: 12706}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 12718}
+      Script: {instanceID: 12708}
     - Class: 114
-      Script: {instanceID: 12972}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 13000}
+      Script: {instanceID: 12974}
     - Class: 114
-      Script: {instanceID: 13064}
+      Script: {instanceID: 13002}
+    - Class: 114
+      Script: {instanceID: 13066}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -343,6 +346,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 788113ad95dee252ecc1ff01f48cb65e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Builder
   - hash:
       serializedVersion: 2
       Hash: 5f170942ee57c7a568f5bcfc7521adea

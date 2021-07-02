@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Menu\Boutons.cs" />
+     <Compile Include="Assets\Partie\Builder.cs" />
      <Compile Include="Assets\Partie\Compteur.cs" />
      <Compile Include="Assets\Partie\Joueur.cs" />
      <Compile Include="Assets\Partie\JumpSol.cs" />

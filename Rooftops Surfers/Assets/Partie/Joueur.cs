@@ -29,7 +29,7 @@ public class Joueur : MonoBehaviour
         Move();
     }
 
-    private bool avance; // 49.906 && 49.9115 
+    private bool avance;
     private void Animation()
     {
         if (avance)
@@ -37,14 +37,14 @@ public class Joueur : MonoBehaviour
             var transformPosition = t.position;
             transformPosition.x += 0.005f;
             t.position = transformPosition;
-            if (transform.position.x >= 49.9115) avance = false;
+            if (transform.position.x >= 0) avance = false;
         }
         else
         {
             var transformPosition = t.position;
             transformPosition.x -= 0.005f;
             t.position = transformPosition;
-            if (transform.position.x <= 49.906) avance = true;
+            if (transform.position.x <= -.0055) avance = true;
         }
     }
 
