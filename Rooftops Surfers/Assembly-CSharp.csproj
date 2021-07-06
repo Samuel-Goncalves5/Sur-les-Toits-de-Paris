@@ -59,12 +59,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Menu\Boutons.cs" />
-     <Compile Include="Assets\Partie\Builder.cs" />
-     <Compile Include="Assets\Partie\Compteur.cs" />
-     <Compile Include="Assets\Partie\Joueur.cs" />
-     <Compile Include="Assets\Partie\JumpSol.cs" />
-     <Compile Include="Assets\Partie\Obstacle.cs" />
-     <Compile Include="Assets\Partie\Translation.cs" />
+     <Compile Include="Assets\Partie\Scripts\Builder.cs" />
+     <Compile Include="Assets\Partie\Scripts\Compteur.cs" />
+     <Compile Include="Assets\Partie\Scripts\Joueur.cs" />
+     <Compile Include="Assets\Partie\Scripts\JumpSol.cs" />
+     <Compile Include="Assets\Partie\Scripts\Obstacle.cs" />
+     <Compile Include="Assets\Partie\Scripts\Plafond.cs" />
+     <Compile Include="Assets\Partie\Scripts\Translation.cs" />
      <Compile Include="Assets\SFX\AudioManager.cs" />
      <Compile Include="Assets\SFX\Sound.cs" />
      <None Include="Assets\Menu\Parisienne\OFL.txt" />
