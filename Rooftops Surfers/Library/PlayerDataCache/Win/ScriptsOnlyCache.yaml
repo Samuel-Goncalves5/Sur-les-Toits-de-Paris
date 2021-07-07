@@ -8,7 +8,6 @@ ScriptsOnlyBuild:
     - Joueur
     - JumpSol
     - Obstacle
-    - Plafond
     - Translation
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
@@ -74,15 +73,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12708}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 13002}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 13066}
     - Class: 114
-      Script: {instanceID: 13082}
+      Script: {instanceID: 13080}
     - Class: 114
-      Script: {instanceID: 13098}
+      Script: {instanceID: 13096}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -155,11 +154,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12974}
     - Class: 114
-      Script: {instanceID: 12976}
+      Script: {instanceID: 13002}
     - Class: 114
-      Script: {instanceID: 13004}
-    - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 13066}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -353,7 +350,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 5c54e419d926167b9eeaa25e4bc8a4c9
+      Hash: 4dc8e3606373ef93f2d4b1466a2c42bf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Builder
@@ -521,7 +518,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: be140ee429021d840e193cb46608ec5e
+      Hash: 604cb5a30c73386c90383c3533c5af81
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Compteur
@@ -557,16 +554,10 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 4de148cdad84346c8dcd4ce94c50c213
+      Hash: 26a4052142c3bfa72d048f18f1e1dbe7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Obstacle
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Plafond
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
