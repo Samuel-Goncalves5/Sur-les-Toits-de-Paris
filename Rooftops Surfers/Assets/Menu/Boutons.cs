@@ -7,7 +7,7 @@ public class Boutons : MonoBehaviour
     public GameObject Paramètres;
     public GameObject Principal;
     public GameObject Chargement;
-    [HideInInspector] static AudioManager audioManager;
+    static AudioManager audioManager;
     private bool fullScreen = true;
     private static bool initialisation = true;
     public bool ingamemenu;
@@ -22,7 +22,7 @@ public class Boutons : MonoBehaviour
         }
         if (!(audioManager is null)) return;
         audioManager = AudioManager.instance;
-        audioManager.Play("test");
+        audioManager.Play("Padam Padam");
     }
 
     public void BStart()
@@ -103,5 +103,10 @@ public class Boutons : MonoBehaviour
                 Screen.SetResolution(1024,768, fullScreen);
                 break;
         }
+    }
+
+    public void ResetBest()
+    {
+        PlayerPrefs.SetInt("Record", 0);
     }
 }

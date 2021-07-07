@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -19,6 +18,8 @@ public class Compteur : MonoBehaviour
     
     private void Start()
     {
+        best = PlayerPrefs.GetInt("Record", 0);
+        
         if (best != 0) Best.text = "Meilleur score : " + best;
         else Best.text = "";
         StartCoroutine(CountRoutine());
@@ -44,13 +45,35 @@ public class Compteur : MonoBehaviour
         }
     }
 
+    IEnumerator WaitRoutine()
+    {
+        MenuLose.SetActive(true);
+
+        Time.timeScale = 0f;
+        Chat.Pause = true;
+        
+        yield return new WaitWhile(() => !Input.anyKeyDown);
+        
+        MenuLose.SetActive(false);
+        Chargement.SetActive(true);
+        
+        if (score + level * 500 > best)
+        {
+            best = score + level*500;
+            PlayerPrefs.SetInt("Record", best);
+        }
+            
+        level = 0;
+        Time.timeScale = 1f;
+        Chat.Pause = false;
+        SceneManager.LoadScene("Scenes/Partie");
+    }
+
+    public GameObject MenuLose;
     public void End()
     {
-        if (score + level*500 > best)
-            best = score + level*500;
-        level = 0;
-        Chargement.SetActive(true);
-        SceneManager.LoadScene("Scenes/Partie");
+        PauseMenu.SetActive(false);
+        StartCoroutine(WaitRoutine());
     }
 
     public void LevelEnd()
